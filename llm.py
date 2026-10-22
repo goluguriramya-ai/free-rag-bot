@@ -35,10 +35,10 @@ PROVIDERS: dict = {
         "env_var": "GROQ_API_KEY",
         "base_url": "https://api.groq.com/openai/v1/chat/completions",
         "models": [
-            "llama-3.1-8b-instant",
-            "llama-3.3-70b-versatile",
-            "mixtral-8x7b-32768",
-            "gemma2-9b-it",
+            "openai/gpt-oss-20b",
+            "openai/gpt-oss-120b",
+            "qwen/qwen3-32b",
+            "meta-llama/llama-4-scout-17b-16e-instruct",
         ],
     },
     "gemini": {
