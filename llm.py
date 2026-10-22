@@ -47,9 +47,8 @@ PROVIDERS: dict = {
         "env_var": "GEMINI_API_KEY",
         "base_url": "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
         "models": [
-            "gemini-2.5-flash",
-            "gemini-2.5-flash-lite",
-            "gemini-2.0-flash-lite",
+            "gemini-3.8-flash",
+            "gemini-3.5-flash-lite",
         ],
     },
     "openrouter": {
