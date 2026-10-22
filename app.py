@@ -34,6 +34,7 @@ with st.sidebar:
     provider = st.selectbox(
         "Provider",
         options=provider_names,
+        index=provider_names.index("groq") if "groq" in provider_names else 0,
         format_func=lambda k: provider_labels[k],
     )
 
